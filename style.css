@@ -1,0 +1,229 @@
+/* Estilos básicos para la página */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo específico para la imagen del logo dentro del encabezado */
+header img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+header h1, header h2 {
+    margin: 0.5em 0;
+}
+
+/* Estilo de la barra de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e;
+    padding: 0.5em 0;
+    position: fixed; /* Fija la barra de navegación */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegúrate de que esté encima del contenido */
+}
+
+/* Estilo de los enlaces de navegación */
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tab-link:hover {
+    color: #f39c12;
+}
+
+/* Espacio entre secciones debido a la barra de navegación fija */
+body {
+    padding-top: 60px; /* Ajusta según la altura de la barra de navegación */
+}
+
+/* Estilo de las secciones de contenido */
+/* Estilo del contenido de las pestañas */
+.tab-content section {
+    padding: 2em;
+    background-color: #fff;
+    margin: 1em auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    display: none; /* Oculta todas las secciones por defecto */
+}
+
+.tab-content section.visible {
+    display: block; /* Muestra la sección activa */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+form button[type="submit"],
+form button[type="button"] {
+    background-color: #2c3e50;
+    color: white;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover,
+form button[type="button"]:hover {
+    background-color: #f39c12;
+}
+
+/* Estilos para la sección de donativos */
+#donativos {
+    background-color: #f4f4f4; /* Color de fondo claro para resaltar la sección */
+    padding: 2em;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+/* Espacio entre los campos del formulario de donativos */
+#donativos .form-group {
+    margin-bottom: 1em; /* Espacio entre campos */
+}
+
+#donativos .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#donativos .form-group input[type="text"],
+#donativos .form-group input[type="email"],
+#donativos .form-group input[type="tel"],
+#donativos .form-group input[type="number"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+/* Estilos para dispositivos móviles (ancho máximo de 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustes para el formulario de contacto */
+    #contact-form label, #contact-form input {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos para tablets (ancho máximo de 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    img, video {
+        width: 100%;
+        height: auto;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+}

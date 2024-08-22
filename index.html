@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Y S M A</title>
+    <title> Guardianas del CiberEspacio </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+        /* Estilos básicos para la página */
+        body {
+            font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        /* Estilo del encabezado */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            position: relative; /* Agregado para posicionar elementos dentro del header */
+        }
+        /* Estilo específico para la imagen del logo dentro del encabezado */
+        header img {
+            width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto;
+            float: right; /* Mueve la imagen al lado derecho */
+            margin-right: 20px; /* Espacio a la derecha */
+            border-radius: 50%; /* Redondea la imagen */
+            border: 2px solid #fff; /* Añade un borde blanco alrededor de la imagen */
+        }
+        header h1, header h2{
+            margin: 0.5em 0;
+        } 
+        /* Estilo de la barra de navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 0.5em 0;
+        }
+        /* Estilo de los enlaces de navegación */
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        /* Estilo de las secciones de contenido */
+        section {
+            padding: 2em;
+            background-color: #fff;
+            margin: 1em auto;
+            max-width: 1200px;
+            border-radius: 8px;
+        }
+        /* Estilo del pie de página */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        .form-group {
+            margin-bottom: 1em;
+        }
+         /* Estilo del formulario */
+         .form-control {
+            width: 100%;
+            padding: 0.5em;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+        }
+        .btn {
+            background-color: #2c3e50;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #f39c12;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+        }
+        form button[type="submit"],
+        form button[type="button"] {
+            background-color: #2c3e50;
+            color: white;
+            padding: 0.5em 2em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button[type="submit"]:hover, 
+        form button[type="button"]:hover {
+            background-color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Imagen del logo -->
+        <img src="Logo.png" alt="Logo de DYSMA">
+        <!-- Título de la página -->
+        <h1>D Y S M A</h1>
+        <h2>Guardianas del CiberEspacio</h2>
+    </header>
+
+    <nav id="main-nav">
+        <!-- Enlaces de navegación -->
+        <a href="#quienes-somos" id="nav-quienes-somos" class="tab-link">Quiénes Somos</a>
+        <a href="#mision" id="nav-mision" class="tab-link">Nuestra Misión</a>
+        <a href="#servicios" id="nav-servicios" class="tab-link">Servicios</a>
+        <a href="#contacto" id="nav-contacto" class="tab-link">Contacto</a>
+        <a href="#donativos" id="nav-donativos" class="tab-link">Donativos</a>
+    </nav>
+
+    <div class="tab-content">
+    <section id="quienes-somos">
+        <!-- Sección "Quiénes Somos" -->
+        <h2>Quiénes Somos</h2>
+        <p>En <strong>D Y S M A -  Guardianas del CiberEspacio</strong>, somos un equipo de mujeres apasionadas y comprometidas con la misión de proteger a niños y adolescentes en el entorno digital.</p>
+        <p>Nuestra organización nació de la preocupación por el creciente problema del Grooming, una forma de acoso y abuso en línea que afecta a miles de jóvenes principalmente dar a conocer la información y prevención a comunidades rurales por medio de recursos interactivos. </p>   
+
+        <h3>Nuestra Historia:</h3>
+        <p>Fue fundado por 5 socias.</p>
+        <ul>
+        <p> <strong>Andrea Gonzalez Estrada:</strong> Líder capacitación y desarrollo organizacional</p>
+        <p> </p>
+        <p> <strong>Blanca Stefani Montaño Cruz:</strong> Líder de vinculación educativa</p>
+        <p> </p>
+        <p> <strong>Diana Cruz Rosales:</strong>  Líder tecnico y desarrollo TI</p>
+        <p> </p>
+        <p> <strong>María José Vergara Guzmán:</strong> Líder de atracción y estrategia comercial</p>
+        <p> </p>
+        <p> <Strong>Yazmin Anaya Cortes:</Strong>  Líder de seguimiento y orientación legal</p>
+        <p> </p>
+        </ul>
+        
+    <img id="logo" src="logo todas.jpg" alt="Logo de Todas">
+    <style>
+        img#logo, img#taller {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+        
+        <h3>Objetivo principal:</h3>
+        <p>Proveer educación y concientización sobre el grooming y la seguridad en internet a comunidades vulnerables mediante capacitaciones, una línea de ayuda para jóvenes, y una película interactiva que simula situaciones de grooming, empoderando a los usuarios con herramientas para protegerse.</p>
+    
+        <h3>Objetivo general:</h3>
+        <ul>
+        <p>Proteger a los niños y adolescentes del acoso sexual en línea y empoderar a las comunidades vulnerables para prevenir el grooming mediante capacitaciones, soporte y recursos interactivos.</p>
+        <p>Implementar programas educativos a 100 comunidades vulnerables.</p>
+        <p>Establecer una línea de ayuda accesible 24/7.</p>
+        <p>Producir y proyectar película interactiva en al menos 50 comunidades.</p>
+        </ul>
+    </section>
+        
+    <section id="mision">
+        <!-- Sección "Nuestra Misión" -->
+        <h2>Nuestra Misión</h2>
+        <p>Proteger y educar a los jóvenes de comunidades vulnerables contra el grooming y otras amenazas en línea a través de recursos interactivos promoviendo un entorno digital seguro y consciente.</p>
+        <h2>Nuestra Visión</h2>
+        <p>Ser la organización líder en la prevención del grooming y la educación en ciberseguridad para comunidades vulnerables, utilizando innovación y tecnología para crear un cambio duradero en la seguridad digital de los jóvenes.</p>
+        <h2>Nuestros valores</h2>
+        <ul>
+        <p> <strong>Compromiso:</strong> Dedicadas en la protección y bienestar de los menores en el entorno digital</p>
+        <p> <strong>Innovación:</strong> Utilizamos tecnología y métodos educativos para combatir el Grooming</p>
+        <p> <strong>Colaboración:</strong> Trabajamos junto a comunidades rurales, organizaciones y autoridades para reducir el porcentaje de grooming</p>
+        </h2>
+        </ul>
+    </section>
+
+    <section id="servicios">
+        <!-- Sección "Servicios" -->
+        <h2>Servicios</h2>
+        <p>Ofrecemos talleres, películas educativas, asesoramiento y recursos para proteger a los jóvenes en el entorno digital...</p>
+        <img id="taller" src="Taller Apertura.png" alt="Taller inicial">
+    
+        <style>
+            img#taller {
+                max-width: 90%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+    </section>
+        <p> </p>
+        <video id="video3" src="Video 3.mp4" controls></video>
+
+<style>
+    video#video3 {
+        max-width: 60%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+       
+        <video id="video2" src="Video 2.mp4" controls></video>
+
+<style>
+    video#video2 {
+        max-width: 60%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+        <p> </p> 
+        <video id="video1" src="Video 1.mp4" controls></video>
+
+<style>
+    video#video1 {
+        max-width: 65%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+<script>
+    // Selecciona todos los videos
+    const videos = document.querySelectorAll('video');
+
+    // Recorre cada video y agrega un evento de reproducción
+    videos.forEach(video => {
+        video.addEventListener('play', () => {
+            // Pausa todos los videos menos el que se está reproduciendo
+            videos.forEach(v => {
+                if (v !== video) {
+                    v.pause();
+                }
+            });
+        });
+    });
+</script>
+
+    </section>
+
+    <section id="contacto">
+        <!-- Sección "Contacto" -->
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través del siguiente formulario:</p>
+        <!-- Formulario de contacto -->
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tel">Teléfono:</label>
+            <input type="tel" id="tel" name="tel" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Enviar</button>
+            <button type="button" id="reset-button">Reiniciar</button>
+        </form>
+        <!-- Mensaje de respuesta -->
+        <p id="response"></p>
+    </section>
+
+    <section id="donativos" class="mt-5">
+        <h2>Donativos</h2>
+        <p>Con tu donativo protegemos a nuestros niños y adolescentes del Grooming.</p>
+        
+        <form id="donation-form">
+            <div class="form-group">
+                <label for="donation-amount">Indica la cantidad que quieres donar:</label>
+                <input type="number" class="form-control" id="donation-amount" name="donation-amount" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donation-frequency">Indica cada cuánto quieres hacer este donativo:</label>
+                <select class="form-control" id="donation-frequency" name="donation-frequency" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="one-time">Único</option>
+                    <option value="monthly">Mensual</option>
+                    <option value="yearly">Anual</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-type">¿Eres persona física o moral?</label>
+                <select class="form-control" id="donor-type" name="donor-type" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="individual">Persona Física</option>
+                    <option value="legal-entity">Persona Moral</option>
+                </select>
+                <p>Proporciona los siguientes datos:</p>
+                <h5>Consulta nuestro aviso de privacidad</h5>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-name">Nombre:</label>
+                <input type="text" class="form-control" id="donor-name" name="donor-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-lastname">Apellido Paterno:</label>
+                <input type="text" class="form-control" id="donor-lastname" name="donor-lastname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-mother-lastname">Apellido Materno:</label>
+                <input type="text" class="form-control" id="donor-mother-lastname" name="donor-mother-lastname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-email">E-mail:</label>
+                <input type="email" class="form-control" id="donor-email" name="donor-email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-rfc">RFC:</label>
+                <input type="text" class="form-control" id="donor-rfc" name="donor-rfc" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="donor-zipcode">Código Postal:</label>
+                <input type="text" class="form-control" id="donor-zipcode" name="donor-zipcode" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="tax-regime">Régimen Fiscal:</label>
+                <input type="text" class="form-control" id="tax-regime" name="tax-regime" required>
+                <p>El Nombre, RFC y C.P. deberán coincidir con la dirección fiscal del receptor.</p>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="data-consent" name="data-consent" value="yes" required>
+                <label for="data-consent">Autorizo a DYSMA Guardianas del CiberEspacio el tratamiento de mis datos personales financieros para fines de la presente donación.</label>
+            </div>
+            
+            <button type="submit" class="btn btn-success">Quiero donar</button>
+        </form>
+    </section>
+</div>
+
+    <footer>
+        <!-- Pie de página -->
+        <p>&copy; 2024,    D Y S M A </p>
+        <p> Guardianas del CiberEspacio</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('#main-nav a');
+    
+            function hideAllLinks() {
+                navLinks.forEach(link => {
+                    link.classList.add('hidden');
+                    link.classList.remove('visible');
+                });
+            }
+    
+            function showLink(linkId) {
+                document.getElementById(linkId).classList.remove('hidden');
+                document.getElementById(linkId).classList.add('visible');
+            }
+    
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    hideAllLinks();
+                    showLink(this.id);
+                });
+            });
+    
+            // Mostrar todos los enlaces al inicio
+            navLinks.forEach(link => {
+                link.classList.add('visible');
+            });
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evitar el envío por defecto
+
+            // Obtener los valores de los campos del formulario
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Verificar que todos los campos estén completos
+            if (name && email && message) {
+                // Mostrar un mensaje de agradecimiento
+                document.getElementById('response').innerText = 'Gracias, ' + name + '. Tu mensaje ha sido enviado.';
+                // Reiniciar el formulario
+                contactForm.reset();
+            } else {
+                // Mostrar un mensaje de alerta si hay campos incompletos
+                responseMessage.innerText = 'Por favor, completa todos los campos.';
+
+            }
+        });
+        // Manejar el clic en el botón de reinicio del formulario
+        resetButton.addEventListener('click', function() {
+            contactForm.reset(); // Limpia los campos del formulario
+            responseMessage.innerText = ''; // Borra el mensaje de respuesta
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
